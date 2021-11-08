@@ -13,6 +13,6 @@ for ii in range(10):
     p.stdin.write(value2)
     p.stdin.flush()
     result = p.stdout.readline().strip()
-    print("c++ result: " + str(float(result)))
+    print("c++ result: " + str((result)))
     print("python result: " +str(float(value) + float(value2)))
     print("+++++++++++++++++++++++++++++++++++++++++++++++++++++")
