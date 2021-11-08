@@ -1,1 +1,1 @@
-output: 106
+output: 97 -61 36

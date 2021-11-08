@@ -6,7 +6,7 @@ int add(int a, int b){
     return a + b;
 }
 int main(){
-    for( int ii=0; ii<1; ++ii ){
+    
         int i;
         int input1;
         int input2;
@@ -17,10 +17,11 @@ int main(){
         std::ofstream myfile;
         std::string name = "example" + std::to_string(i) +".txt";
         myfile.open (name);
-        myfile << "output: "<<result<<"\n";
+        myfile << "output: "<<input1<<" "<<input2<<" "<<result<<"\n";
         myfile.close();
         std::cout << c[0] << std::endl;
-        std::cout.flush();
-        //return 0;
-    }
+        std::cout << "Hello"<< std::endl;
+        //std::cout.flush();
+        return 0;
+    
 }

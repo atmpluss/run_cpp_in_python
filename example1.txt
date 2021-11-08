@@ -1,1 +1,1 @@
-output: 50
+output: 10 -60 -50
