@@ -6,7 +6,7 @@ int add(int a, int b){
     return a + b;
 }
 int main(){
-    for( int ii=0; ii<10; ++ii ){
+    for( int ii=0; ii<1; ++ii ){
         int i;
         int input1;
         int input2;
